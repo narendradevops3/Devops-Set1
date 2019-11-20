@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/scala-parser-combinators_2.11.0-m4-1.0-rc1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/scala-library-2.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/scala-library-2.9.1-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/scala-library-2.8.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/scala-library-2.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/scala-library-2.8.0.RC3.jar"/>
+	<classpathentry kind="lib" path="C:/hadoop-1.2.1/hadoop-client-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/hadoop-1.2.1/hadoop-core-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/hadoop-consumer-0.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/kafka_2.10-0.8.0(2).jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/kafka_2.10-0.8.0-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/metrics-core-2.0.0-BETA19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/org.apache.servicemix.bundles.twitter4j-3.0.3_1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/zkclient-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/zkclient-0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/Kafka_jars/zookeeper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DRAGON FLY 2/Desktop/KafkaTwitter/Kafka_jars/slf4j.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

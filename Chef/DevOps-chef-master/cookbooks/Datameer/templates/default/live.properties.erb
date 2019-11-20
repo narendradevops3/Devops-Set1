@@ -1,0 +1,35 @@
+# Define which database to use: hsql-memory, hsql-file, mysql
+system.property.db.mode=mysql
+
+# Define the address and port used to connect to DATAMEER.
+system.property.server.address=$(hostname -i):8088
+
+# Set if DATAMEER should send e-mail notifications.
+# Set to "true" to enable, and set to "false" to disable.
+mail.enabled=true
+
+# Define the directory where DATAMEER stores persistent data:
+localfs.root=das-data
+localfs.cache.root=cache
+system.property.local-execution.temp-dir=${localfs.cache.root}/local-execution
+
+# Define the default email and password of the internal administrative user account (username is 'admin')
+# Uncomment these lines if you want to override the settings of default.properties
+# admin.email=
+# admin.password=
+
+# Optional, define the number of nodes in your Hadoop cluster.
+hadoop.nodes=
+
+# Define a super user account that has the ADMIN role. This can be used to login
+# when external authentication services are not functioning.
+das.superuser.enabled=false
+das.superuser.username=superuser
+das.superuser.password=k8?oT@I{sj4e
+
+# If you want to disable security in DATAMEER, remove the comment marker (#). Please note, your system will 
+# be insecure. This only makes sense if you are working behind a firewall.
+# security.enabled=false
+
+# Uncomment this if you want to disable the DATAMEER Analytics Application Market.
+#aam.enabled=false

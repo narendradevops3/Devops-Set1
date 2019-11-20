@@ -1,0 +1,21 @@
+http://sanketdangi.com/post/50649257357/chef-11-configuration-aws-ec2-rhel-6-3-instance
+
+http://sanketdangi.com/post/50663896403/cookbooks-roles-and-bootstraping-aws-ec2-rhel-instances
+
+
+http://www.comtechies.com/2013/12/how-to-write-chef-cookbook-and-deploy.html
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-a-chef-server-workstation-and-client-on-ubuntu-vps-instances
+
+
+knife bootstrap node_domain_or_IP -x username -i sameKey -N chef_name_you_want --sudo
+
+http://stackoverflow.com/questions/24788920/chef-clients-and-validators
+
+
+http://52.4.81.74:8081/artifactory/simple/yum-local/com/dragonfly/factory/pentaho-driver/0.0.1/
+knife cookbook upload pentaho-driver
+knife bootstrap ip-172-31-30-42.ec2.internal -x ec2-user -i /home/ubuntu/Dragon.pem -N Test-chef --sudo
+knife bootstrap ip-172-31-30-42.ec2.internal -x ec2-user -i /home/ubuntu/Dragon.pem -N Test-chef -r "recipe[pentaho-driver]" --sudo

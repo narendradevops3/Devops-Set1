@@ -1,0 +1,40 @@
+#!/bin/bash
+# chkconfig: 2345 20 80
+# description: Description comes here....
+
+# Source function library.
+. /etc/init.d/functions
+
+start() {
+    # code to start app comes here
+    # example: daemon program_name &
+/usr/local/dragonfly/factory/workers/Datameer_5_1_2-cdh-5-1-0/lib/Datameer-5.1.2-cdh-5.1.0-mr1/bin/conductor.sh start
+}
+
+stop() {
+    # code to stop app comes here
+    # example: killproc program_name
+/usr/local/dragonfly/factory/workers/Datameer_5_1_2-cdh-5-1-0/lib/Datameer-5.1.2-cdh-5.1.0-mr1/bin/conductor.sh stop
+}
+
+case "$1" in
+    start)
+       start
+       ;;
+    stop)
+       stop
+       ;;
+    restart)
+       stop
+       start
+       ;;
+    status)
+       # code to check status of app comes here
+       # example: status program_name
+       ;;
+    *)
+       echo "Usage: $0 {start|stop|status|restart}"
+esac
+
+exit 0
+

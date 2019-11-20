@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/avro/avro-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-1.7.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-1.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-compiler-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-compiler-1.7.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-compiler-1.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-ipc-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-ipc-1.7.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-ipc-1.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-mapred-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-mapred-1.7.6-hadoop1.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-mapred-1.7.6-hadoop2.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-mapred-1.7.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-mapred-1.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-maven-plugin-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-maven-plugin-1.7.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-maven-plugin-1.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-protobuf-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-protobuf-1.7.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-protobuf-1.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-service-archetype-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-service-archetype-1.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-thrift-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-thrift-1.7.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-thrift-1.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-tools-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-tools-1.7.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-tools-1.7.6-nodeps.jar"/>
+	<classpathentry kind="lib" path="C:/avro/avro-tools-1.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/avro/trevni-avro-1.7.6-hadoop1.jar"/>
+	<classpathentry kind="lib" path="C:/avro/trevni-avro-1.7.6-hadoop2.jar"/>
+	<classpathentry kind="lib" path="C:/avro/trevni-avro-1.7.6-javadoc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

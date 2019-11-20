@@ -1,0 +1,49 @@
+github:
+
+Switching remote URLs from SSH to HTTPS
+
+Open Terminal (for Mac users) or the command prompt (for Windows and Linux users).
+
+Change the current working directory to your local project.
+
+List your existing remotes in order to get the name of the remote you want to change.
+
+git remote -v
+# origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+# origin  git@github.com:USERNAME/REPOSITORY.git (push)
+Change your remote's URL from SSH to HTTPS with the remote set-url command.
+
+git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
+
+Verify that the remote URL has changed.
+
+git remote -v
+# Verify new remote URL
+# origin  https://github.com/USERNAME/OTHERREPOSITORY.git (fetch)
+# origin  https://github.com/USERNAME/OTHERREPOSITORY.git (push)
+
+For First check-inn:
+
+git commit -m 'initial commit'
+git push origin master
+
+Modified changes in code:
+git commit -am "file name"
+
+
+git remote remove origin
+
+git add folder
+
+
+http://www.codingdefined.com/2014/07/error-when-git-push-src-refspec-test.html
+
+olution 3 :
+
+If above two solution doesn't worked for you then you can try using :
+
+git push origin HEAD:master
+OR
+git push origin "your_git_repo":"your_branch_name"
+OR
+git push origin master --force

@@ -1,0 +1,55 @@
+HIVE
+
+query
+select drug,sum(amt) from patient where group by drug;
+
+
+java 
+
+
+hadoop                    (facebook)php    mysql-----hive(sql on hadoop)sql 92
+
+hdfs mapreduce hive     
+
+1.sql on hadoop
+2.abstraction for mapreduce
+3.hive is a query engine it is not a database
+4.insert update delete is not possible 
+5.OLAP not for OLTP
+6.structured data analysis.
+7.hive -0.12.0 (json and xml (semi structured data))
+8. JSON: java script object notation 
+	 specially for storing and exchanging data
+	 json is easier to use because its a light weight alternative to XML
+
+
+
+
+
+hive ----> derby
+
+table ----->metastore will be get stored in derby
+
+
+derby is an inmemory database comes along with hive to store the metastore
+information of the hive tables 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

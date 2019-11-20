@@ -1,0 +1,26 @@
+Hive Installation
+-----------------
+
+
+1) Extract the hive tar
+
+tar -zxvf hive-0.12.0
+
+2) Set java,hive and hadoop paths in .bashrc file and execute the .bashrc file
+
+echo $JAVA_HOME  (Check the JAVA PATH)
+
+vi .bashrc
+
+export JAVA_HOME=/home/saravanan/jdk1.6.0_45
+export HADOOP_HOME=/home/saravanan/hadoop-1.2.1
+export HIVE_HOME=/home/saravanan/hive-0.12.0    
+
+source .bashrc
+
+3) Start hadoop Cluster 
+
+4)cd hive-0.12.0
+5)bin/hive
+6)show tables;
+

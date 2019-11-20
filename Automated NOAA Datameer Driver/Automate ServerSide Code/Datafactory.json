@@ -1,0 +1,18 @@
+[
+    {
+        "NoaaFlag": true,
+        "id1": "49",
+        "id2": "72",
+        "id3": "51"
+    },
+    {
+        "TwitFlag": false,
+        "id1": "73",
+        "id2": "74",
+        "id3": "75"
+    },
+    {
+        "PentFlag": false,
+        "file": "J1.kjb"
+    }
+]

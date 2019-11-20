@@ -1,0 +1,36 @@
+cd hadoop-1.2.1
+
+bin/hadoop dfs -put /home/Xperttech/oozie_datadotz/MRoozie/ /MRoozie/
+
+cd oozie-3.3.0
+
+bin/oozie job -oozie http://localhost:11000/oozie -config /home/Xperttech/oozie_datadotz/MRoozie/job.properties -run
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+cd hive-0.12.0
+
+bin/hive --service metastore
+
+cd hadoop-1.2.1
+
+bin/hadoop dfs -put /home/Xperttech/oozie_datadotz/hive/ /Hive
+
+bin/hadoop dfs -mkdir /oozie/sharelib/hive
+
+bin/hadoop dfs -put /home/Xperttech/hive-0.12.0/lib/* /oozie/sharelib/hive
+
+cd oozie-3.3.0
+
+bin/oozie job -oozie http://localhost:11000/oozie -config /home/Xperttech/oozie_datadotz/hive/job.properties -run
+----------------------------------------------------------------------------------------------------------------------------------------------
+cd hadoop-1.2.1
+
+bin/hadoop dfs -put /home/Xperttech/oozie_datadotz/sqoop/ /sqoopdir
+
+bin/hadoop dfs -mkdir /oozie/sharelib/sqoop
+
+bin/hadoop dfs -put /home/Xperttech/sqoop-1.4.4.bin/lib/* /oozie/sharelib/sqoop
+
+cd oozie-3.3.0
+
+bin/oozie job -oozie http://localhost:11000/oozie -config /home/Xperttech/oozie_datadotz/sqoop/job.properties -run

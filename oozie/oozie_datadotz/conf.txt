@@ -1,0 +1,10 @@
+
+<property>
+  <name>hadoop.proxyuser.Xperttech.hosts</name>                                               
+  <value>*</value>
+</property>
+<property>
+  <name>hadoop.proxyuser.Xperttech.groups</name>
+  <value>*</value>
+</property>
+

@@ -1,0 +1,9 @@
+https://sachinsharm.wordpress.com/2013/10/11/installsetup-and-configure-chef-serverworkstationnode-on-centosrhel-6-4/
+
+
+Knife commands:
+
+knife node run_list set Test-Controllers 'recipe[startcontrollers]'
+knife cookbook upload pentaho-driver
+knife bootstrap ip-172-31-30-42.ec2.internal -x ec2-user -i /home/ubuntu/Dragon.pem -N Test-chef --sudo
+knife bootstrap ip-172-31-30-42.ec2.internal -x ec2-user -i /home/ubuntu/Dragon.pem -N Test-chef -r "recipe[pentaho-driver]" --sudo

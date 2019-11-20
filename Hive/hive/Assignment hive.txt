@@ -1,0 +1,8 @@
+
+
+	
+
+Assignment=1  two partition
+assignment=2  partition with bucket 
+assignment=3  external table with partition and bucketed assignment
+assignment=4  modes of execution
