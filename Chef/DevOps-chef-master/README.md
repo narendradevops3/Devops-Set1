@@ -64,6 +64,4 @@ knife node run_list add nodeN 'role[single-compute]'
 ----------
 
 
-Author : Narendra reddy Ganesana <narendra.ganesana@dragonflydf.com>
-
-Organisation: DragaondlflyDatafactory  <http://www.dragonflydatafactory.com>
+Author : Narendra reddy Ganesana <narendra.ganesana>
